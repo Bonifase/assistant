@@ -6,7 +6,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
 
 from bot_utils import bag_of_words, stem, tokenize
-from models import NeuralNetFeed
+from model import NeuralNetFeed
 
 with open("bot/data/intents.json", "r") as f:
     intents = json.load(f)

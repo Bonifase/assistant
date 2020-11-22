@@ -24,10 +24,22 @@
          "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
          "context_set": ""
         },
+        {"tag": "payments",
+        "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+        "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
         {"tag": "hours",
          "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
          "responses": ["We are open 7am-4pm Monday-Friday!"],
          "context_set": ""
+        },
+        {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "coffee",
+        "patterns": ["Which coffee do you have?", "What kinds of coffee are there?", "What do you sell?" ],
+        "responses": ["We have Cappuccino, Piaggio and Vespa mopeds", "We have Piaggio, Vhat would you prefer"]
         }
    ]
 }
